@@ -12,7 +12,47 @@
 </head>
 
 <body>
-
+    <section>
+        <div class="container p-4">
+            <div class="row">
+                <div class="col-10">
+                    <h1 class="display-3">Part 1: Number Facts</h1>
+    
+                    <ol class="">
+                        <li class="pt-3 lead">
+                            <b>Make a request to the <a href="http://numbersapi.com/">Numbers API</a> to get a fact about
+                                your favorite number. (Make
+                                sure you get
+                                back JSON by including the json query key, specific to this API.</b>
+                            <div class="my-4 card">
+                                <div class="card-body" id="question-1">
+    
+                                </div>
+                            </div>
+                        </li>
+                        <li class="pt-5 lead" id="question-2">
+                            <b>Figure out how to get data on multiple numbers in a single request. Make that request and
+                                when you get the
+                                data back, put all of the number facts on the page.</b>
+                        </li>
+                        <li class="pt-5 lead" id="question-3">
+                            <b>Use the API to get 4 facts on your favorite number. Once you have them all, put them on the
+                                page. It’s okay if some of
+                                the facts are repeats.</b>
+                            <div class="my-4 card">
+                                <div class="card-body" id="q-3-card">
+                                    <h2 class="card-title text-primary">Here are some facts about #12</h2>
+                                    <ol id="q-3-list">
+    
+                                    </ol>
+                                </div>
+                            </div>
+                        </li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </section>
 
 
 
@@ -21,7 +61,7 @@
         crossorigin="anonymous"></script>
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     
-    <script src="promises_part_1.js"></script>
+    <script src="part_1.js"></script>
     
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
         integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
